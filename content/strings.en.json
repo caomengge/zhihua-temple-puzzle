@@ -1,0 +1,23 @@
+{
+  "title": "Zhihua Temple",
+  "subtitle": "Fragmented yet Connected: Pathways to Wisdom",
+  "start": "Begin",
+  "not_yet": "Not yet",
+  "tap_to_continue": "Tap to continue",
+  "show_both": "Show both",
+  "show_one": "Show one language",
+  "screen_1": "The Stele",
+  "screen_2": "Coffered Ceiling",
+  "screen_3": "Wanfo Pavilion",
+  "screen_4": "Buddha Niche",
+  "inventory_fragment": "Ceiling Fragment",
+  "inventory_profile": "Coffered Ceiling",
+  "inventory_buddha": "Small Buddha",
+  "end_title": "The temple is whole again.",
+  "share": "Share",
+  "start_over": "Start Over",
+  "puzzle1_hint": "Rotate the tiles to restore the stele.",
+  "view_profile": "View side profile",
+  "back_full_wall": "← Back to full wall",
+  "best_portrait": "Best viewed in portrait orientation."
+}

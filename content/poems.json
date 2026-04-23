@@ -1,0 +1,82 @@
+{
+  "shen_tingfang": {
+    "key": "shen_tingfang",
+    "name_en": "Shen Tingfang",
+    "name_zh": "沈廷芳",
+    "dates": "1692–1762",
+    "title_en": "Compiler in the Hanlin Academy; Investigating Censor for the Shandong Circuit",
+    "title_zh": "翰林院編修、山東道監察御史",
+    "poem_zh": [
+      "杭郡才子登翰林，",
+      "奉詔修史記前朝。",
+      "爲正人心除舊像，",
+      "方知餘波未肯消。"
+    ],
+    "poem_en": [
+      "A gifted talent from Hangzhou rose to the Hanlin Academy;",
+      "Under imperial command, he wrote the history of the fallen dynasty.",
+      "To rectify the past in people's mind, he ordered the old image removed;",
+      "Only then did he realize that its aftereffects would not fade away."
+    ]
+  },
+  "wang_zhen": {
+    "key": "wang_zhen",
+    "name_en": "Wang Zhen",
+    "name_zh": "王振",
+    "dates": "c. 1410–1449",
+    "title_en": "Chief Eunuch of the Directorate of Ceremonial",
+    "title_zh": "司禮監掌印太監",
+    "poem_zh": [
+      "寒微內侍入深宮，",
+      "東宮侍講荷恩隆。",
+      "欲報君恩修禪寺，",
+      "因緣聚散是非中。"
+    ],
+    "poem_en": [
+      "Born of humble means, a palace eunuch entered the inner court;",
+      "As tutor for the crown prince, he flourished in imperial favor.",
+      "To repay his sovereign's grace, he built a Buddhist temple;",
+      "Yet as causes and conditions gathered and dispersed, his legacy became entangled in praise and blame."
+    ]
+  },
+  "liu_dunzhen": {
+    "key": "liu_dunzhen",
+    "name_en": "Liu Dunzhen",
+    "name_zh": "劉敦楨",
+    "dates": "1897–1968",
+    "title_en": "Member of the Society for the Study of Chinese Architecture; architectural historian and educator",
+    "title_zh": "中國營造學社成員、建築史學者及教育家",
+    "poem_zh": [
+      "攜徒北上勘古跡，",
+      "梁柋斗拱認分明。",
+      "只為營造存真相，",
+      "不見全貌意難平。"
+    ],
+    "poem_en": [
+      "Leading his students northward to survey ancient architecture;",
+      "He traced beams, purlins, and bracket sets with careful clarity.",
+      "He longed to preserve the true form of the temple's structure;",
+      "But denied its wholeness, his heart could not be at peace."
+    ]
+  },
+  "laurence_sickman": {
+    "key": "laurence_sickman",
+    "name_en": "Laurence Sickman",
+    "name_zh": "史克門",
+    "dates": "1907–1988",
+    "title_en": "Curator of Nelson-Atkins Museum of Art",
+    "title_zh": "納爾遜·阿特金斯藝術博物館策展人",
+    "poem_zh": [
+      "燕京負笈少年行，",
+      "滿城風塵覓舊珍。",
+      "購得藻井離古寺，",
+      "萬佛閣中夢猶深。"
+    ],
+    "poem_en": [
+      "A young scholar came to old capital with books upon his back;",
+      "Through a city thick with dust, he searched for treasures of the past.",
+      "He bought the coffered ceiling and parted it from its ancient temple;",
+      "Yet in the Pavilion of Ten Thousand Buddhas, dreams still deepened."
+    ]
+  }
+}

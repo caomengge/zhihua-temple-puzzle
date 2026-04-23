@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude
+.claude/
+
+# Documentation (internal only)
+*.docx
+
+# Original font files (WOFF2 versions are used instead)
+fonts/*.ttf
+fonts/*.otf
+
+# Editor
+.vscode/
+.idea/

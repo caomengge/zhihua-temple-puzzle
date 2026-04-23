@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Zhihua Temple</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/puzzles.css">
+</head>
+<body>
+
+<!-- ── Title Screen ── -->
+<div id="title-screen" class="screen active">
+  <div class="title-content">
+    <h1 id="game-title">夢遊智化寺</h1>
+    <p id="game-subtitle">Dream Journey to Zhihua Temple</p>
+    <div class="title-start-btns">
+      <button id="start-btn-zh" class="btn-primary" onclick="startGameWithLocale('zh')">開始</button>
+      <button id="start-btn-en" class="btn-primary" onclick="startGameWithLocale('en')">Begin</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Game Screen ── -->
+<div id="game-screen" class="screen">
+
+  <!-- Top Bar -->
+  <div id="top-bar">
+    <button class="lang-toggle" aria-label="Toggle language">EN / 中</button>
+    <div id="progress-dots" role="list" aria-label="Puzzle progress">
+      <span class="dot active" data-puzzle="1" role="listitem" tabindex="0" title="The Stele"></span>
+      <span class="dot"        data-puzzle="2" role="listitem" tabindex="0" title="Coffered Ceiling"></span>
+      <span class="dot"        data-puzzle="3" role="listitem" tabindex="0" title="Wanfo Pavilion"></span>
+      <span class="dot"        data-puzzle="4" role="listitem" tabindex="0" title="Buddha Niche"></span>
+    </div>
+    <button id="mute-btn" class="mute-btn" aria-label="Toggle audio">♪</button>
+  </div>
+
+  <!-- Canvas Area -->
+  <div id="canvas-area">
+    <button id="prev-btn" class="nav-btn" aria-label="Previous screen" style="visibility:hidden">‹</button>
+
+    <div id="main-canvas">
+
+      <!-- Screen 1: Stele Rotation Puzzle -->
+      <div id="screen-1" class="puzzle-screen active" aria-label="The Stele">
+        <div id="stele-container"></div>
+      </div>
+
+      <!-- Screen 2: Coffered Ceiling (locked) -->
+      <div id="screen-2" class="puzzle-screen locked" aria-label="Coffered Ceiling">
+        <img src="Asset/InitialState_Ceiling.png" alt="Coffered ceiling with a missing fragment" class="screen-bg">
+        <div class="not-yet-overlay">
+          <span class="not-yet-text">Not yet</span>
+        </div>
+      </div>
+
+      <!-- Screen 3: Wanfo Pavilion (locked) -->
+      <div id="screen-3" class="puzzle-screen locked" aria-label="Wanfo Pavilion">
+        <img src="Asset/InitialState_Building.png" alt="Wanfo Pavilion exterior" class="screen-bg">
+        <div class="not-yet-overlay">
+          <span class="not-yet-text">Not yet</span>
+        </div>
+      </div>
+
+      <!-- Screen 4: Buddha Niche (locked) -->
+      <div id="screen-4" class="puzzle-screen locked" aria-label="Buddha Niche Wall">
+        <img src="Asset/Initialstate_niche.png" alt="Wall of buddha niches" class="screen-bg">
+        <div class="not-yet-overlay">
+          <span class="not-yet-text">Not yet</span>
+        </div>
+      </div>
+
+    </div><!-- /main-canvas -->
+
+    <button id="next-btn" class="nav-btn" aria-label="Next screen">›</button>
+  </div><!-- /canvas-area -->
+
+  <!-- Inventory Bar -->
+  <div id="inventory-bar" aria-label="Inventory">
+    <div id="inventory-item" class="inventory-empty" aria-live="polite"></div>
+  </div>
+
+</div><!-- /game-screen -->
+
+<!-- Poem Overlay -->
+<div id="poem-overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-label="Poem">
+  <div class="poem-panel">
+    <!-- filled by overlay.js -->
+  </div>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/state.js"></script>
+<script src="js/ui/overlay.js"></script>
+<script src="js/ui/inventory.js"></script>
+<script src="js/puzzles/stele.js"></script>
+<script src="js/puzzles/ceiling.js"></script>
+<script src="js/puzzles/pavilion.js"></script>
+<script src="js/puzzles/niche.js"></script>
+<script src="js/screens.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
