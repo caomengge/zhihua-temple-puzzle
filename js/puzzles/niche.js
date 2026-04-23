@@ -62,14 +62,14 @@ const NichePuzzle = (() => {
     base.id = 'niche-base';
     base.src = SRCS.wall;
     base.draggable = false;
-    base.style.cssText = 'max-width:100%;max-height:100%;display:block;user-select:none;cursor:pointer;';
+    base.style.cssText = 'width:100%;height:100%;object-fit:contain;display:block;user-select:none;cursor:pointer;';
     base.addEventListener('click', onBaseTap);
 
     const over = document.createElement('img');
     over.id = 'niche-over';
     over.src = '';
     over.draggable = false;
-    over.style.cssText = 'position:absolute;inset:0;margin:auto;max-width:100%;max-height:100%;display:block;opacity:0;transition:opacity 450ms ease;pointer-events:none;user-select:none;';
+    over.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;opacity:0;transition:opacity 450ms ease;pointer-events:none;user-select:none;';
 
     const glow = document.createElement('div');
     glow.id = 'niche-glow';
