@@ -120,6 +120,16 @@ html, body {
 .title-start-btns .btn-primary {
   margin-top: 0;
 }
+.title-sound-hint {
+  margin-top: 24px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  opacity: 0.5;
+  text-align: center;
+  line-height: 1.7;
+}
 
 .btn-primary {
   margin-top: 24px;
