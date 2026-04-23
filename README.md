@@ -2,7 +2,7 @@
 
 A bilingual (Chinese / English) browser-based mini puzzle game built for the Zhihua Temple exhibition. Players explore four spaces — a carved stele, a coffered ceiling, Wanfo Pavilion, and a buddha niche — solving a drag-and-drop puzzle in each room and unlocking a poem tied to the space's history.
 
-**Play:** [https://caomengge.github.io/zhihua-temple-puzzle](https://caomengge.github.io/zhihua-temple-puzzle)
+**Play:** [https://caomengge.github.io/zhihua-temple-puzzle/](https://caomengge.github.io/zhihua-temple-puzzle/)
 
 ---
 
