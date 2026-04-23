@@ -229,20 +229,36 @@ html, body {
   top: 50%;
   transform: translateY(-50%);
   z-index: 20;
-  background: none;
-  border: none;
+  background: rgba(255,255,255,0.72);
+  border: 1px solid rgba(59,46,33,0.18);
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--ink);
-  opacity: 0.4;
-  padding: 12px 8px;
+  opacity: 0.85;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 1;
-  transition: opacity 200ms;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.14);
+  transition: opacity 200ms, background 200ms, box-shadow 200ms;
   user-select: none;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
-.nav-btn:hover { opacity: 0.8; }
-#prev-btn { left: 4px; }
-#next-btn { right: 4px; }
+.nav-btn:hover {
+  opacity: 1;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+}
+.nav-btn:active {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+#prev-btn { left: 10px; }
+#next-btn { right: 10px; }
 
 /* ── Puzzle Screens ── */
 .puzzle-screen {
